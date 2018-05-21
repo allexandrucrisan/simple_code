@@ -6,4 +6,5 @@ for (var i=0; i<numere.length; i++){
     }
 }
 var str = numereNew.join();
-console.log("numerele pare sunt: " + str);
+if (str=[]) console.log("Nici un numar par nu a fost introdus");
+else console.log("numerele pare sunt: " + str);
